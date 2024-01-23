@@ -7,7 +7,7 @@ namespace CarLotSimulator
         static void Main(string[] args)
         {
             //TODO
-
+            
             //Create a seperate class file called Car
             //Car shall have the following properties: Year, Make, Model, EngineNoise, HonkNoise, IsDriveable
             //Car shall have the following methods: MakeEngineNoise(), MakeHonkNoise()
