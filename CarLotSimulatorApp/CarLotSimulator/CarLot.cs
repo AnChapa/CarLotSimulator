@@ -9,7 +9,7 @@ namespace CarLotSimulator
 {
     internal class CarLot
     {
-        List<Car> carsInLot;
+        List<Car> carsInLot{get; set;}
 
         public void AddCar(Car car)
         {
