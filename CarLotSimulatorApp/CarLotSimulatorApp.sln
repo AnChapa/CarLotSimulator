@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLotSimulator", "CarLotSimulator\CarLotSimulator.csproj", "{37B4B2F7-995B-4676-BEDE-E6DDB66F69EA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BE2A794A-F7D9-4079-8810-63F26EF3C203}"
-	ProjectSection(SolutionItems) = preProject
-		Car.cs = Car.cs
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
