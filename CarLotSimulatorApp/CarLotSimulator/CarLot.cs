@@ -10,6 +10,7 @@ namespace CarLotSimulator
     internal class CarLot
     {
         List<Car> carsInLot{get; set;}
+        public static int numberOfCars;
 
         public void AddCar(Car car)
         {
@@ -26,6 +27,10 @@ namespace CarLotSimulator
                 Console.Write("\n");
             }
             Console.WriteLine("Thats all the cars we have for now!");
+        }
+        public static void NumberOfCars()
+        {
+            Console.WriteLine($"The number of cars in the lot is: {numberOfCars}\n");
         }
         public CarLot()
         {

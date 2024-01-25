@@ -38,12 +38,15 @@ namespace CarLotSimulator
             car1.HonkNoise = "BOLD and AUTHORITATIVE HONK";
             car1.IsDriveable = true;
             carSale.AddCar(car1);
+            CarLot.NumberOfCars();
 
             Car car2 = new Car() { Year = 1998, Make = "Toyota", Model = "Camry", EngineNoise = "smooooth and quiet inline - 4 engine HUMS", HonkNoise = "polite and moderate HONK",  IsDriveable = true };
             carSale.AddCar(car2);
+            CarLot.NumberOfCars();
 
             Car car3 = new Car(2002, "BMW", "3 Series", "inline-6 engine produces a sporty and distinctive GROWL", "elegant and slightly assertive HONK", true);
             carSale.AddCar(car3);
+            CarLot.NumberOfCars();
 
             carSale.DisplayInfo();
             
